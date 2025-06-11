@@ -1,0 +1,33 @@
+body{
+  font-family: DM sans, arial;
+}
+
+.section-1{
+  background-color: hsl(256, 67%, 59%);
+  color: white;
+  flex-wrap: wrap;
+}
+
+.section-1-container{
+  padding-left: 1rem;
+  padding-right: 1rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1{
+  font-weight: 700;
+  max-width: 10rem;
+  text-align: center;
+}
+
+.text-10x{
+  color: hsl(39, 100%, 71%);
+}
+
+.star-5{
+  max-width: 10rem;
+}
