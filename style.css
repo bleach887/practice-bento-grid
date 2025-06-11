@@ -1,11 +1,15 @@
 body{
-  font-family: DM sans, arial;
+  font-family: 'DM Sans', Arial, sans-serif;
+  background-color: rgb(243, 243, 243);
+  box-sizing: border-box;
+  width: 95vw;
 }
 
 .section-1{
   background-color: hsl(256, 67%, 59%);
   color: white;
-  flex-wrap: wrap;
+  border-radius: 10px;
+  margin-bottom: 2rem;
 }
 
 .section-1-container{
@@ -16,12 +20,17 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
 }
 
 h1{
   font-weight: 700;
-  max-width: 10rem;
+  max-width: 15rem;
   text-align: center;
+  margin: auto;
+  margin-bottom: 10px;
+  font-size: 2.5rem;
 }
 
 .text-10x{
@@ -30,4 +39,91 @@ h1{
 
 .star-5{
   max-width: 10rem;
+}
+
+.reviews{
+  margin-top: 8px;
+}
+
+.section-2{
+  background-color: white;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
+
+.section-2-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-accounts{
+  height: 65px;
+  padding-top: 12px;
+}
+
+h2{
+  font-weight: 700;
+  font-size: 23px;
+  padding-left: 1rem;
+  padding-top: .5rem;
+  padding-bottom: 1rem;
+  margin: 0;
+}
+
+.section-3{
+  background-color: hsl(39, 100%, 71%);
+  padding-left: 1rem;
+  padding-top: 0.7rem;
+  padding-right: 3rem;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+h3{
+  margin: 0;
+  font-size: 23px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.schedule-img{
+  height: 160px;
+  position: relative;
+  bottom: -25px;
+}
+
+.section-4{
+  background-color: hsl(254, 88%, 90%);
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
+
+.section-4-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5em;
+}
+
+h4{
+  font-weight: 500;
+  font-size: 23px;
+  margin: 0;
+}
+
+.schedule-posts-img{
+  height: 275px;
+}
+
+.section-4-info{
+  max-width: 18rem;
+  text-align: center;
+  font-size: 18px;
 }
